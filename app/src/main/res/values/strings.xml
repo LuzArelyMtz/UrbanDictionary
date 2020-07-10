@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Urban Dictionary</string>
+    <string name="tvAuthor">By&#160;</string>
+    <string name="tvWord">House</string>
+    <string name="tvThumbs_up">7</string>
+    <string name="tvThumbs_down">16</string>
+    <string name="tvDefinition">One of the smartest medical dramas to ever have aired, House, M.D. features the maverick, anti-social doctor Gregory House (Hugh Laurie) who specializes in infectious diseases and does whatever it takes to solve the puzzling cases that come his way.   A show that should rob this year\'s Emmys if not for its sheer quality then for Laurie\'s brilliant acting.</string>
+    <string name="tvExample"><![CDATA[Dr. House - \"Sorry. Up late. Internet porn.\"  Dr. Chase - \"Why aren\'t you in your office?\"  Dr. House - \"There\'s a computer in my office. If I log on, romance will ensue. My wrist might fall off.\"   - Episode 18 \"Babies & Bathwater\" 4/19/05]]></string>
+    <string name="menu_search">Search</string>
+    <string name="content_description_search">action bar  item search</string>
+    <string name="menu_sort_asc">sorting asc</string>
+    <string name="content_description_asc">sorting asc action item</string>
+    <string name="menu_sort_desc">sorting desc</string>
+    <string name="content_description_desc">sorting desc action item</string>
+</resources>

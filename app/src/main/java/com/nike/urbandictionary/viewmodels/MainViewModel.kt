@@ -32,7 +32,7 @@ class MainViewModel @Inject constructor(private val urbanDictionaryRepository: R
         } catch (e: Exception) {
             e.printStackTrace()
         }
-        _searchProgress.postValue(false)
+
 
     }
 

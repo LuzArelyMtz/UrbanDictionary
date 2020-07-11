@@ -4,8 +4,5 @@ import com.google.gson.annotations.SerializedName
 
 data class DefinitionList(
     @SerializedName("list")
-    val searchResultsList: List<Definition>
+    var searchResultsList: List<Definition>
 )
-
-
-

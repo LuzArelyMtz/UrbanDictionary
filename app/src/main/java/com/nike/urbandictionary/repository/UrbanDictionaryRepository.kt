@@ -6,7 +6,7 @@ import javax.inject.Inject
 
 class UrbanDictionaryRepository @Inject constructor(private val urbanDictionaryService: UrbanDictionaryService) :
     Repository {
-    override suspend fun getResultFromNetwork(term: String): List<Definition>? {
-        return urbanDictionaryService.getTermUrbanDictionary(term).body()?.searchResultsList
+    override suspend fun getResultFromNetwork(term: String): List<Definition> {
+        return urbanDictionaryService.getTermUrbanDictionary(term).searchResultsList.orEmpty()
     }
 }

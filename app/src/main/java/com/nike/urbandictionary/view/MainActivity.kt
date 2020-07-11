@@ -73,7 +73,7 @@ class MainActivity : AppCompatActivity() {
 
                     true
                 }
-                    R.id.menu_sort_thumbsup -> {
+                R.id.menu_sort_thumbsup -> {
                     mainViewModel.definitionListSortedByDescThumbsUp()
                     true
                 }

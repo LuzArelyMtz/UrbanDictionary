@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
 
 @Module
-class UrbanDictionaryModule (){
+class UrbanDictionaryModule() {
 
     @Singleton
     @Provides
@@ -25,7 +25,6 @@ class UrbanDictionaryModule (){
         val cacheSize = 5 * 1024 * 1024
         val myCache = Cache(context.cacheDir, cacheSize.toLong())
         return OkHttpClient.Builder()
-
             .cache(myCache)
             .connectTimeout(15, TimeUnit.SECONDS)
             .readTimeout(15, TimeUnit.SECONDS)
@@ -38,7 +37,6 @@ class UrbanDictionaryModule (){
         return Retrofit.Builder()
             .baseUrl(BuildConfig.BASE_URL)
             .client(client)
-            .addCallAdapterFactory(CoroutineCallAdapterFactory.invoke())
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }
@@ -46,6 +44,5 @@ class UrbanDictionaryModule (){
     @Provides
     fun provideUrbanDictionaryService(retrofit: Retrofit): UrbanDictionaryService {
         return retrofit.create(UrbanDictionaryService::class.java)
-
     }
 }

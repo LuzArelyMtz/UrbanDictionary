@@ -18,9 +18,11 @@ class DefinitionViewHolder(private val definitionItemCardvBinding: DefinitionIte
             author = author.substring(0, 12)
         }
 
-        definitionItemCardvBinding.tvAuthor.text =
+        /*definitionItemCardvBinding.tvAuthor.text =
             definitionItemCardvBinding.root.context.getString(R.string.tvAuthor).plus(author)
-                .plus(" - ").plus(dateString)
+                .plus(" - ").plus(dateString)*/
+
+        definitionItemCardvBinding.tvAuthor.text = definitionItemCardvBinding.root.context.getString(R.string.tvAuthor, author, dateString)
         definitionItemCardvBinding.executePendingBindings()
     }
 

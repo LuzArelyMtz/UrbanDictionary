@@ -22,6 +22,4 @@ class DefinitionAdapter :
         definitionHolder.bind((getItem(position)))
 
     }
-
-
 }

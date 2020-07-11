@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Urban Dictionary</string>
-    <string name="tvAuthor">By&#160;</string>
+
+    <string name="tvAuthor">By %1$s! - %2$s </string>
     <string name="tvWord">House</string>
     <string name="tvThumbs_up">7</string>
     <string name="tvThumbs_down">16</string>

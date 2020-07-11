@@ -17,5 +17,4 @@ class MyApplication : Application() {
         super.onCreate()
         appComponent = initDagger(this)
     }
-
 }

@@ -12,8 +12,6 @@ class RepositoryModule {
     @Singleton
     @Provides
     fun provideRepository(urbanDictionaryService: UrbanDictionaryService): Repository {
-        return UrbanDictionaryRepository(
-            urbanDictionaryService
-        )
+        return UrbanDictionaryRepository(urbanDictionaryService)
     }
 }

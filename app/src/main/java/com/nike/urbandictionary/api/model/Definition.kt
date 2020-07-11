@@ -13,11 +13,8 @@ data class Definition(
     val author: String,
     @SerializedName("word")
     val word: String,
-    /*@SerializedName("sound_urls")
-    val soundUrls: List<String>,*/
     @SerializedName("written_on")
     val date: String,
     @SerializedName("example")
     val example: String
 )
-

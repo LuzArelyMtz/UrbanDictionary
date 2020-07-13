@@ -12,16 +12,20 @@ The most voted positive and negative definitions are shown.
 
 This app was built following the next feature:
 
--MVVM Aquitecture
--Databinding and LiveData
--Kotlin and coroutines
--Dagger2
--Retrofit
--Gson
--Expresso and Mockito for testing
--Material design-
--Recycler, ListAdapter, Differ and ViewHolder
--Lottie animations
+- _MVVM Aquitecture
+- _Databinding and LiveData
+- _Kotlin and coroutines
+- _Dagger2
+- _Retrofit
+- _Gson
+- _Expresso and Mockito for testing
+- _Material design-
+- _Recycler, ListAdapter, Differ and ViewHolder
+- _Lottie animations
+
+#Demo Youtube
+
+https://www.youtube.com/watch?v=BE9nzA62ovE&feature=youtu.be
 
 #Screenshot
 
